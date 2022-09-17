@@ -359,7 +359,7 @@ nav .fas{
 }
 @media only screen and (max-width:600px){
     #header{
-        background-image: url(pic/background.jpg);
+        background-image: url(pic/background3.jpg);
     }
     .header-text{
         margin-top: 100%;
@@ -373,7 +373,7 @@ nav .fas{
         font-size: 25px;
     }
     nav ul{
-        background: #ff004f;
+        background: #444243;
         position: fixed;
         top: 0;
         right: -200px;
