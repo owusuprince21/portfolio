@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>myPersonalPortfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/81ee5e1713.js"
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- Header Section -->
+
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <div class="logo">
+                        <h1 class="logohead">PTECH</h1>
+
+                    </div>
+                    <ul id="sidemenu">
+                        <li><a href="#">Home</a> </li>
+                        <li><a href="#about">About</a> </li>
+                        <li><a href="#services">Services</a> </li>
+                        <li><a href="#portfolio">Portfolio</a> </li>
+                        <li><a href="#contact">Contact</a> </li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+
+                </nav>
+                <div class="header-text">
+                    <p>Web/Mobile App Developer</p>
+                    <h1>Hi! I'm <span> Prince</span> <br> From Ghana</h1>
+                </div>
+            </div>
+        </div>
+        <!--About Section  -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="pic/Kwadwo.jpg" width=300 height=300>
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="title">About Me</h1>
+                        <p>
+                            Prince Owusu is my name. I am 26 years and 6.5ft tall
+                            My Hobby is playing Sony PlayStation Console. I really like programming and it's my dream to become one the best 
+                            programmer in Africa. I started my IT journey from scratch in the junior high school by taking my Information and Communication Technology(ICT) very serious.
+                            Since that's my favourite subject I got a passed mark which is exellent and extend that knowledge to persue Computer Science in Senior High and also got a passed mark.
+                            So I suggested to chip to Software Engineering as my professional course to build with more programming languages.I chose IPMC(Intercom Programming and Management Company) at Accra Ghana.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link"
+                                onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"
+                                onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span> <br>Designing Web/App
+                                    Interfaces</li>
+                                <li><span>WEB Development</span> <br>Designing
+                                    Web App Development</li>
+                                <li><span>APP Development</span> <br>Build
+                                    Andriods and iOS Apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2022-Current</span> <br>Software
+                                    Engineering</li>
+                                <li><span>2019-2020</span> <br>ALX Java Cert</li>
+                                <li><span>2018-2019</span> <br>Database
+                                    Management </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Currently</span> <br>IPMC College of
+                                    Technology</li>
+                                <li><span>2016-2019</span> <br>Asamankese Senior
+                                    High</li>
+                                <li><span>2013-2016</span> <br>Anum-Presby J.S.S</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services Section -->
+        <div id="services">
+            <div class="container">
+                <h1 class="title">My Service</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Corrupti, ipsum. Rem, vitae totam reiciendis,
+                            est id, ipsa possimus soluta facilis enim sapiente
+                            nostrum sequi modi debitis deleniti adipisci
+                            voluptatum? Numquam!</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-crop-alt"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Corrupti, ipsum. Rem, vitae totam reiciendis,
+                            est id, ipsa possimus soluta facilis enim sapiente
+                            nostrum sequi modi debitis deleniti adipisci
+                            voluptatum? Numquam!</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Corrupti, ipsum. Rem, vitae totam reiciendis,
+                            est id, ipsa possimus soluta facilis enim sapiente
+                            nostrum sequi modi debitis deleniti adipisci
+                            voluptatum? Numquam!</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- My Portfolio Section -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="title">My Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="pic/work-1.png">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>The App connects you to the talented people
+                                around the world.
+                                Download it from playStore.
+                            </p>
+                            <a href="#"><i class="fa-sharp fa-solid
+                                    fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="pic/work-2.png">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>The App connects you to the talented people
+                                around the world.
+                                Download it from playStore.
+                            </p>
+                            <a href="#"><i class="fa-sharp fa-solid
+                                    fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="pic/work-3.png" >
+                        <div class="layer">
+                            <h3>Online Shopping App</h3>
+                            <p>The App connects you to the talented people
+                                around the world.
+                                Download it from playStore.
+                            </p>
+                            <a href="#"><i class="fa-sharp fa-solid
+                                    fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!-- Contact Section -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>
+                            powusu050@gmail.com</p>
+                        <p><i class="fa-sharp fa-solid fa-square-phone"></i>
+                            0547273952</p>
+                        <div class="social-icons">
+                            <a
+                                href="https://web.facebook.com/evangelistprince.owusu.79"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/_Owusu_Prince"><i
+                                    class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/prince_owusu21/"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                        <a href="pic/mycv.pdf" download class="btn btn2">Download
+                            CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright &copy; P-TECH Made <i class="fa-sharp fa-solid
+                        fa-heart"></i> By Prince Owusu</p>
+
+            </div>
+        </div>
+        <!-- Script For Portfolio section -->
+        <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+             
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+            
+        }
+    </script>
+        <!-- Script for Sidebar section -->
+        <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right ="0";
+        }
+        function closemenu() {
+            sidemeu.style.right ="-200px";
+        }
+    </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwgLa3Bcl4jX4R_Wd1EcP3_OJCpywwkZv8MNYeS0_t7ifvzj2JlVQbNXvwsHoa87udv8g/exec';
+  const form = document.forms['submit-to-google-sheet']
+  const msg= document.getElementById("msg");
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent Successfully!"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+    </body>
+</html>
