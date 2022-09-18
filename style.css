@@ -193,15 +193,21 @@ nav ul li a:hover::after{
     font-weight: 500;
     margin-bottom: 15px;
 }
+.services-list div p{
+    font-size: 16px;
+}
 .services-list div a{
     text-decoration: none;
     color: #fff;
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 20px;
     display: inline-block;
+    background-color: #ff004f;
+    border-radius: 2rem;
+    padding: 5px 10px;
 }
 .services-list div:hover{
-    background: #ff004f;
+    background: #587987;
     cursor: pointer;
 }
 /* My Portfolio */
@@ -284,9 +290,21 @@ nav ul li a:hover::after{
 .btn:hover{
     background: #ff004f;
 }
+/* .image-con {
+    position: relative;
+    text-align: center;
+    color: rgb(36, 98, 212);
+    font-weight: 700;
+    
+  }
+  .center-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 40px;
+    transform: translate(-50%, -50%);
+  } */
 
-
-/* Contact */
 .contact-left{
     flex-basis: 35%;
 }
@@ -351,13 +369,13 @@ form .btn2{
 
 }
 .copyright i{
-    color: #ff004f;
+    color: #beadb3;
 }
 /* Css for Small Screen */
 nav .fas{
     display: none;
 }
-@media only screen and (max-width:650px){
+@media only screen and (max-width:600px){
     #header{
         background-image: url(pic/background3.jpg);
         background-size: contain;
@@ -417,6 +435,30 @@ nav .fas{
     .copyright{
         font-size: 14px;
     }
+    /* about in small device */
+    .image-con {
+        position: relative;
+        text-align: center;
+        color: rgb(36, 98, 212);
+        font-weight: 700;
+        
+      }
+      .center-img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 40px;
+        transform: translate(-50%, -50%);
+      }
+      .layer{
+        height: 100%;
+      }
+      .logohead::first-letter{
+        color: #ff004f;
+        font-size: 22pt;
+        font-family: jokerman;
+    }
+    
 }
 #msg{
     color: #61b752;
