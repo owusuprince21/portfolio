@@ -360,6 +360,8 @@ nav .fas{
 @media only screen and (max-width:650px){
     #header{
         background-image: url(pic/background3.jpg);
+        background-size: contain;
+        background-position: center;
     }
     .header-text{
         margin-top: 100%;
